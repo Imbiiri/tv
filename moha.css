@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ .container{
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+.logo img{
+    width:250px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav ul{
+    
+    flex: 1;
+    text-align: right;
+    align-items: center;
+    
+    
+}
+nav ul li{
+    display: inline;
+    font-size: 15px;
+    margin: 30px;
+    
+}
+nav ul li a{
+    color: black;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    color: #1b9bff;
+    transition: .5s;
+
+}
+.landing{
+   
+   
+   text-align: center;
+  
+   
+}
+
+ .navv{
+     
+        width: 40px;
+        cursor: pointer;
+        display: none;
+     
+
+        
+
+    }
+    .landing h3 {
+        font-family: Poppins Medium;
+        font-size: 40px;
+        color: rgb(77, 192, 77)
+        /* animation: typing 3.5s steps(40, end) infinite;
+        overflow: hidden; */
+        
+        
+        
+    }
+    .landing p{
+        font-family: Myanmar Text;
+    }
+    .landing button{
+        width: 10%;
+        padding: 5px;
+        margin: 5px;
+        background-color: rgb(54, 107, 54);
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .ln2{
+        text-align: center;
+         font-family: Poppins Medium;
+        font-size: 20px;
+        color: rgb(77, 192, 77);
+        
+    }
+    .ln2 p{
+        color: black;
+        font-size: 20px;
+    }
+    .line-under-about{
+        width: 20%;
+        height: 1px;
+        background-color:  rgb(88, 86, 82);
+        margin-left: 40%;
+
+    }
+    .readmore{
+         width: 10%;
+        padding: 5px;
+        margin: 5px;
+        background-color: rgb(77, 192, 77);
+        color: black;
+        border: none;
+        border-radius: 7px;
+    }
+    .images {
+        
+        size: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .images img{
+        width: 30%;
+        margin: 25px;
+        
+        
+    }
+    .contact{
+        width: 100%;
+        
+    }
+    .contact img{
+        width: 25%;
+    }
+    .contact h3{
+        font-family: Poppins Medium;
+        font-size: 20px;
+        color: rgb(77, 192, 77);
+        text-align: center;
+    }
+    .hoo{
+        display: flex;
+        
+    }
+    .hoo h4{
+        margin-top: 150px;
+        color:rgb(77, 192, 77); 
+        font-size: 20px;
+    }
+    footer p{
+        text-align: center;
+    }
+    .images img{
+        animation: slide 5s linear infinite;
+    } 
+    #moh a{
+            color: white;
+        }
+
+    #pdf a{
+            color: white;
+        }
+
+    @keyframes slide{
+       /* for{
+           width: 0%;
+           margin-left: 20%;
+       }
+       to{
+           width: 100%;
+           margin-left: -4%;
+       }
+        */
+    } 
+    
+    /* @keyframes typing{
+        from {width: 200px}
+        to {
+            width: 100%;
+        }
+    } */
+    
+    @media (max-width:1027px){
+        .landing button{
+            width: 35%;
+        }
+
+    }
+     @media (max-width:952px){
+         label.logo{
+             width: 14px;
+         }
+       
+             
+         
+     }
+
+    @media (max-width:858px){
+        nav ul li a{display: flex;
+        flex-direction: column;}
+       label.logo{
+            width: 100%;
+        }
+        nav ul{
+            width: 100%;
+            position: absolute;
+            top: 140px;
+            left: 40px;
+            
+
+
+        }
+
+        
+        nav ul li a{
+           font-size: 10px;
+           position: relative;
+           left: 12px;
+           color: white;
+           font-family: sans-serif;
+           text-align: left;
+            
+        }
+        ul{
+           position: fixed;
+           transition: all .5s;
+           z-index: 2;
+           display: inline;
+           
+          
+        }
+        
+        .navv{
+            display: block;
+        }
+        #menulist{
+            display: inline;
+            opacity: 98%;
+            border-radius: 5px;
+           width: 83%;
+            overflow: hidden;
+            transition: .5s;
+             background-color: rgb(62, 155, 62);
+        }
+        .landing {
+            
+            
+            text-align: center;
+        }
+        .fil button{
+            
+
+            width: 35%;
+            flex-direction: column-reverse;
+            align-items:center ;
+            text-align: center;
+            align-self: center;
+            cursor: pointer;
+            
+        }
+        @keyframes scrol {
+            for{
+                width: 19px;
+            }
+            after{
+                width: 129px;
+            }
+            
+        }
+        #moh a{
+            color: white;
+        }
+        
+        .fil{
+           display: flex;
+           flex-direction: column;
+           align-content: center;
+        }
+        .readmore{
+            width: 20%;
+        }
+        .images{
+            flex-direction: column;
+            
+        }
+        .images img{
+            width: 90%;
+            border-radius: 5px;
+            animation: scrol 3.5s steps(40, end) infinite;
+        overflow: hidden; 
+        }
+
+        .contact{
+            
+        width: 100%;
+       align-content: center;
+        
+    }
+    .contact img{
+        width: 60%;
+        align-self: center;
+        align-items: center;
+        align-self: center;
+    }
+    .contact h3{
+        font-family: Poppins Medium;
+        font-size: 20px;
+        color: rgb(77, 192, 77);
+        text-align: center;
+    }
+    .hoo{
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        
+    }
+    .hoo h4{
+        margin-top: 1px;
+        color:rgb(77, 192, 77); 
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    }
+   
