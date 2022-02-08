@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moha</title>
+    <link rel="stylesheet" href="moha.css">
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <label id="home" class="logo"><img src="my logo.png"></label>
+        
+        <ul id="menulist">
+            <li><a  href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        
+        <img src="menu_btn.png" class="navv" onclick="togglemenu9()">
+    </nav>
+         <div class="landing">
+             <h3>Hello! Welcome</h3>
+             <P>I like making new things and meeting<br> new peaple.</P>
+             <div class="fil">
+             <button id="moh"><a href="form.html">Hire me</a> 
+         </div><br><br><br>
+
+         <div id="about" class="ln2">
+             <h3>
+                 About Me
+             </h3>
+             <div class="line-under-about"></div><br>
+             <p>
+                My name is mohammed mohamoud abdilaahi (Aare), this is
+                My first responsive website that built by html css and few java script, “alxamdulilaah” I am so gland to make this,
+                Difficult roads often lead to beautiful destination.
+
+           </p>
+           
+           <br><br><br>
+           <h3 id="gallery">Gallery</h3>
+        <div class="line-under-about"></div><br>
+
+        <div class="images">
+            <img src="IMG_23mz9x.jpg" >
+            <img src="20211015_214615.jpg">
+           
+
+
+        </div>
+        
+        <div class="images">
+            <img src="FB_IMG_16209297879052879.jpg">
+            <img src="status_me_status_IMG-20210730-WA0003.jpg" >
+        </div>
+
+
+         </div>
+         <br>
+         
+         <br>
+        <div id="contact" class="contact">
+            <h3>Contact Me </h3>
+            <div class="line-under-about"></div>
+            <div class="hoo">
+            <img src="mohamed.png"> <h4>mmaxamed403@gmail.com <br><br> +252 063 6063409</h4></div>
+
+
+        </div><hr><br>
+             
+        <footer>
+            <p>&copy 2022 All rights reserved.developed by mohamed (Aare)</p>
+        </footer><br>
+                
+                 
+                 
+                
+            
+                
+
+        
+
+        
+    
+    </div>
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu9() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "130px"
+            } else {
+                menulist.style.maxHeight = "0px"
+            }
+        }
+      var typed=new typed('.animate',{
+
+        String:[
+            "coming",
+            "soon",
+            "insha allah...."
+        ],typedSpeed:50,
+        backSpeed: 50,
+      }
+      
+      
+      )
+        
+    </script>
+</body>
+</html>
