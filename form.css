@@ -1,0 +1,92 @@
+
+        *{
+             margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+        }
+        .container{
+             width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        }
+        .cap{
+            background-color: rgb(70, 165, 70);
+            line-height: 100px;
+            height: 12%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        form{
+            margin-top: 4%;
+            text-align: center;
+            margin-top: 20px;
+            margin-top: 5%;
+
+        }
+        
+        input{
+            padding:  20px;
+            margin:  5px ;
+            width: 50%;
+            
+        }
+        .name{
+            display: flex;
+            width: 100%;
+        }
+        .email{
+            text-align: left;
+        }
+        #em{
+            width: 99%;
+        }
+        form h1{
+            text-align: left;
+            color: rgb(104, 96, 96);
+        }
+       
+            
+        .Descreption{
+            width: 100%;
+            text-align: left;
+
+        }
+        textarea{
+            width: 100%;
+            
+        }
+        #text{
+            padding: 10px;
+        }
+        .submit{
+            text-align: left;
+            width: 60%;
+            
+        }
+        .submit input{
+            background-color: green;
+            border: none;
+            color: white;
+        }
+         a img{
+            width: 10%;
+            margin-left: 90%;
+            margin-bottom: 5px;
+           
+
+        
+        }
+      
+        
+        
+
+
+  
